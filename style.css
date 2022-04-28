@@ -109,11 +109,11 @@ a:hover{
     }
 
     .secao1 p{
-        font-size: 80%;
+        font-size: 70%;
     }
 
     section.module.parallax h1, .module.parallax2 h1{
-
+        width: 300px;
         margin: 0 auto;
 
     }
