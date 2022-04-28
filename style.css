@@ -38,6 +38,7 @@ main {
 /*/divs e sections*/
 p{
     color: rgb(255, 255, 255);
+    font-size: 80%;
 }
 .container {
     display: flex;
@@ -103,17 +104,17 @@ a:hover{
     transition: 0.4s all;
 }
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1000px){
     .secao1 h2{
         font-size: 20px;
     }
 
     .secao1 p{
-        font-size: 70%;
+        font-size: 67%;
     }
 
     section.module.parallax h1, .module.parallax2 h1{
-        width: 300px;
+        width: 80%;
         margin: 0 auto;
 
     }
