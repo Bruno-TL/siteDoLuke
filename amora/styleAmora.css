@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #846ab7;
+    position: absolute;
+}
+
+div{
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #bb99ff;
+    position: relative;
+    top: 20%;
+    right:1%;
+    border-radius: 50px;
+}
+
+div img{
+    height: 100%;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1000px){
+    p {
+        color: black;
+
+    }
+}

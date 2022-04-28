@@ -1,0 +1,44 @@
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url(./img/lukeDoidao.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url(./img/lukeSorrindo.jpg);
+    background-attachment: fixed;
+    background-size: 35%;
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 80%, #000 100%);
+}
+section.module.parallax2::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 80%, #000 100%);
+}

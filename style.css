@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(52, 52, 52);
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/*peso dos h1 h2 */
+h1,h2{
+    font-weight: 800;
+    color: #000;
+}
+
+section.module.parallax h1, .module.parallax2 h1{
+    text-transform: uppercase;
+    border: 5px solid #d4a470;
+    width: 400px;
+    padding: 5px 0;
+    margin-left: 20px;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+
+main {
+    display: block;
+    background-color: #d4a470;
+}
+
+/*/divs e sections*/
+p{
+    color: rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    background: #d4a470;
+    height: 400px;
+}
+
+section.secao1{
+    font-size: 30px;
+    width: 50%;
+    height: 100%;
+    
+}
+
+section.secao1 h2{
+    text-transform: uppercase;
+}
+
+
+section.secao2{
+   margin: 0 0 0 10px;
+    
+}
+
+section.secao2 img{
+    height: 80%;
+    border-radius: 20px;
+}
+
+.containerB{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerB{
+    background-color: #715537;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    width: 40%;
+    border: 2px solid #111;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #d4a470;
+}
+
+a:hover{
+    color: #b65e00;
+    border: 4px solid #b65e00;
+    transition: 0.4s all;
+}
+
+@media screen and (max-width: 1180px){
+    .secao1 h2{
+        font-size: 20px;
+    }
+
+    .secao1 p{
+        font-size: 80%;
+    }
+
+    section.module.parallax h1, .module.parallax2 h1{
+
+        margin: 0 auto;
+
+    }
+}
